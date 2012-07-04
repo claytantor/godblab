@@ -1,0 +1,94 @@
+body{font-family: 'Balthazar', serif; }
+
+
+h1{
+	font-family: 'IM Fell Great Primer SC', serif; 
+	font-size: 5.8em; 
+	margin-bottom: 0.25em;
+	}
+
+h2{font-family: 'IM Fell Great Primer SC', serif; font-size: 4.6em; margin-bottom: 0.25em;}
+
+h3{font-family: 'IM Fell Great Primer SC', serif; font-size: 3.4em; margin-bottom: 0.25em;}
+
+h4{font-family: 'IM Fell Great Primer SC', serif; font-size: 2.2em; margin-bottom: 0.25em;}
+
+.text_field {
+	width: 300px;
+	border: 1px solid #888;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	background-color: #f2f2f2;
+}
+
+.phone_field {
+	position: relative;
+	top: 3px;
+	width: 300px;
+	font-size: 1.7em;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+}
+
+.phone_field_begin {
+	color: #eee;
+	border: 1px solid #888;
+	background-color: #fff;
+}
+
+.phone_field_typing {
+	color: #B8A632;
+	border: 1px solid #B8A632;
+	background-color: #F2ECC7;
+}
+
+.phone_field_ready {
+	color: #389C17;
+	border: 1px solid #389C17;
+	background-color: #D2F2C7;
+}
+
+
+
+a.gb_button  {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+a.gb_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+a.gb_button:active {
+	position:relative;
+	top:1px;
+}
+
+#poll_status { font-family: 'Balthazar', serif; font-size: 2.2em; margin-bottom: 0.25em; }
+
+.explain { font-size: 2.0em; color: #aaa; }
+
+.god_title{font-family: 'IM Fell Great Primer SC', serif; font-size: 2.2em; margin-bottom: 0.25em;}
